@@ -8,7 +8,7 @@ A project-scoped Codex skill for designing original web pages, landing pages, he
 git clone --recurse-submodules https://github.com/garyliu-hecheng/motionsites-web-design-skill.git
 ```
 
-Open the cloned folder as a Codex project and ask Codex to use `$motionsites-web-design` for a web design task. The skill lives at [`.agents/skills/motionsites-web-design/SKILL.md`](.agents/skills/motionsites-web-design/SKILL.md). It can produce a design specification or implement a page when requested; this repository itself does not contain a finished website.
+Open the cloned folder as a Codex project and ask Codex to use `$motionsites-web-design` for a web design task. The skill lives at [`.agents/skills/motionsites-web-design/SKILL.md`](.agents/skills/motionsites-web-design/SKILL.md). It can produce a design specification or implement a page when requested; a standalone interactive example is included below.
 
 For example: `Use $motionsites-web-design to design a responsive landing page for my 3D product. First provide the layout and copy; implement it only when I ask.` The skill includes a [design specification template](.agents/skills/motionsites-web-design/references/design-spec.md) and uses the upstream examples and media only when they fit the task.
 
@@ -17,3 +17,8 @@ If the repository was cloned without submodules, run `git submodule update --ini
 ## Licensing
 
 The project-authored files in this repository are licensed under [MIT](LICENSE). The `motionsites-claude-skill-source` submodule has its [own license](motionsites-claude-skill-source/LICENSE): its example prompts and media are **not** covered by this repository's MIT license and must not be redistributed as a prompt or media collection. This is an independent Codex adaptation, not an official MotionSites release.
+
+
+## Interactive example
+
+[Vitaforge Daily wellness quiz](examples/vitaforge-wellness-quiz/) is a React 18, Tailwind CSS 3, Vite, and TypeScript phone-screen demo built from a supplied design brief. In that directory, run npm install and npm run dev. Its background image and font load from the brief's external URLs; they are not copied into this repository.
