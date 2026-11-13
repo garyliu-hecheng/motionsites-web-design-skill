@@ -10,6 +10,8 @@ git clone --recurse-submodules https://github.com/garyliu-hecheng/motionsites-we
 
 Open the cloned folder as a Codex project and ask Codex to use `$motionsites-web-design` for a web design task. The skill lives at [`.agents/skills/motionsites-web-design/SKILL.md`](.agents/skills/motionsites-web-design/SKILL.md). It can produce a design specification or implement a page when requested; this repository itself does not contain a finished website.
 
+For example: `Use $motionsites-web-design to design a responsive landing page for my 3D product. First provide the layout and copy; implement it only when I ask.` The skill includes a [design specification template](.agents/skills/motionsites-web-design/references/design-spec.md) and uses the upstream examples and media only when they fit the task.
+
 If the repository was cloned without submodules, run `git submodule update --init` in its root before using the linked MotionSites references.
 
 ## Licensing
