@@ -1,0 +1,3 @@
+[submodule "motionsites-claude-skill-source"]
+	path = motionsites-claude-skill-source
+	url = https://github.com/Motionsites-AI/claude-skill.git
